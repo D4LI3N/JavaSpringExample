@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_XbLjMLG-EeynY_V9esvEiQ" name="com_final">
+    <eAnnotations xmi:id="_X-NXwLG-EeynY_V9esvEiQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_X-N-0LG-EeynY_V9esvEiQ" source="codegen">
+        <details xmi:id="_X-N-0bG-EeynY_V9esvEiQ" key="codegenDirectory" value="/com.final/src/main/java"/>
+        <details xmi:id="_ZCdDALG-EeynY_V9esvEiQ" key="AssociatedSourceCode" value="/com.final/src/main/java/com/danijel/Contact.java;408137410/1;/com.final/src/main/java/com/danijel/Degree.java;3179058148/1;/com.final/src/main/java/com/danijel/DoHomework.java;489463719/1;/com.final/src/main/java/com/danijel/DoHomework2.java;526775816/1;/com.final/src/main/java/com/danijel/Homework.java;2495553863/1;/com.final/src/main/java/com/danijel/HomeworkWorker.java;3968243510/1;/com.final/src/main/java/com/danijel/Person.java;4259696154/1;/com.final/src/main/java/com/danijel/StudentList.java;675482655/1;/com.final/src/main/java/com/danijel/Subject.java;891833317/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_YibfILG-EeynY_V9esvEiQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_YibfIbG-EeynY_V9esvEiQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_YicGMLG-EeynY_V9esvEiQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_YicGMbG-EeynY_V9esvEiQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_YictQLG-EeynY_V9esvEiQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_YictQbG-EeynY_V9esvEiQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_YidUULG-EeynY_V9esvEiQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_Yid7YLG-EeynY_V9esvEiQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_YifJgLG-EeynY_V9esvEiQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Ygas8LG-EeynY_V9esvEiQ" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ygtn4LG-EeynY_V9esvEiQ" name="danijel">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Yil3MLG-EeynY_V9esvEiQ" name="Contact">
+          <ownedAttribute xmi:id="_YuRiwLG-EeynY_V9esvEiQ" name="email" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_YuT_ALG-EeynY_V9esvEiQ" name="phoneNumber" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvPMELG-EeynY_V9esvEiQ" name="Contact" specification="_YiwPQLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvPMEbG-EeynY_V9esvEiQ" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_YvPMErG-EeynY_V9esvEiQ" name="phoneNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_YvPME7G-EeynY_V9esvEiQ" type="_Yil3MLG-EeynY_V9esvEiQ" direction="return"/>
+            <language>java</language>
+            <body>this.email = email;&#xD;
+		this.phoneNumber = phoneNumber;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvPzILG-EeynY_V9esvEiQ" name="toString" specification="_Yiz5oLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvQaMLG-EeynY_V9esvEiQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;Contact [email=&quot; + email + &quot;, phoneNumber=&quot; + phoneNumber + &quot;]&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvRoULG-EeynY_V9esvEiQ" name="getPhone" specification="_Yi6AQLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvRoUbG-EeynY_V9esvEiQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return phoneNumber;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_YiqvsLG-EeynY_V9esvEiQ" name="Contact">
+            <eAnnotations xmi:id="_Yir90LG-EeynY_V9esvEiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Yisk4LG-EeynY_V9esvEiQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_YiuaELG-EeynY_V9esvEiQ" type="_Yil3MLG-EeynY_V9esvEiQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_YiwPQLG-EeynY_V9esvEiQ" name="Contact" method="_YvPMELG-EeynY_V9esvEiQ">
+            <eAnnotations xmi:id="_YiyEcLG-EeynY_V9esvEiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_YiyrgLG-EeynY_V9esvEiQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_Yiw2ULG-EeynY_V9esvEiQ" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_YixdYLG-EeynY_V9esvEiQ" name="phoneNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_YiyrgbG-EeynY_V9esvEiQ" type="_Yil3MLG-EeynY_V9esvEiQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Yiz5oLG-EeynY_V9esvEiQ" name="toString" method="_YvPzILG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_Yi1HwLG-EeynY_V9esvEiQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Yi6AQLG-EeynY_V9esvEiQ" name="getPhone" method="_YvRoULG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_Yi7OYLG-EeynY_V9esvEiQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Yi-RsLG-EeynY_V9esvEiQ" name="Degree">
+          <ownedAttribute xmi:id="_YuXpYLG-EeynY_V9esvEiQ" name="optional" type="_YkMZsLG-EeynY_V9esvEiQ" association="_YvrQ8LG-EeynY_V9esvEiQ"/>
+          <ownedAttribute xmi:id="_YuY3gLG-EeynY_V9esvEiQ" name="subjects" type="_YkMZsLG-EeynY_V9esvEiQ" isOrdered="true" association="_Yv4FQLG-EeynY_V9esvEiQ">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YuZekLG-EeynY_V9esvEiQ" value="*"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvS2cLG-EeynY_V9esvEiQ" name="toString" specification="_YjBVALG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvS2cbG-EeynY_V9esvEiQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>StringBuilder sb = new StringBuilder();&#xD;
+		sb.append(&quot;\nOptional: &quot; + optional);&#xD;
+		sb.append(&quot;\n\n&quot;);&#xD;
+		sb.append(&quot;All subjects: \n&quot;);&#xD;
+		for (Subject subject: subjects){&#xD;
+			sb.append(subject);&#xD;
+			sb.append(&quot;\n&quot;);&#xD;
+		}&#xD;
+		return sb.toString();&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_YjBVALG-EeynY_V9esvEiQ" name="toString" method="_YvS2cLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YjB8ELG-EeynY_V9esvEiQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YjHboLG-EeynY_V9esvEiQ" name="DoHomework">
+          <interfaceRealization xmi:id="_YtffoLG-EeynY_V9esvEiQ" client="_YjHboLG-EeynY_V9esvEiQ" supplier="_YjTB0LG-EeynY_V9esvEiQ" contract="_YjTB0LG-EeynY_V9esvEiQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvUroLG-EeynY_V9esvEiQ" name="doIt" specification="_YjKe8LG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvUrobG-EeynY_V9esvEiQ" name="text">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>System.out.println(&quot;Doing Homework1: &quot; + text);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_YjKe8LG-EeynY_V9esvEiQ" name="doIt" method="_YvUroLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YjLGALG-EeynY_V9esvEiQ" name="text">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YjNiQLG-EeynY_V9esvEiQ" name="DoHomework2">
+          <interfaceRealization xmi:id="_YthU0LG-EeynY_V9esvEiQ" client="_YjNiQLG-EeynY_V9esvEiQ" supplier="_YjTB0LG-EeynY_V9esvEiQ" contract="_YjTB0LG-EeynY_V9esvEiQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvV5wLG-EeynY_V9esvEiQ" name="doIt" specification="_YjPXcLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvV5wbG-EeynY_V9esvEiQ" name="text">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>System.out.println(text);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_YjPXcLG-EeynY_V9esvEiQ" name="doIt" method="_YvV5wLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YjP-gLG-EeynY_V9esvEiQ" name="text">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_YjTB0LG-EeynY_V9esvEiQ" name="Homework">
+          <ownedOperation xmi:id="_YjU3ALG-EeynY_V9esvEiQ" name="doIt">
+            <ownedParameter xmi:id="_YjVeELG-EeynY_V9esvEiQ" name="text">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YjWsMLG-EeynY_V9esvEiQ" name="HomeworkWorker">
+          <ownedAttribute xmi:id="_YubTwLG-EeynY_V9esvEiQ" name="doHomework2" visibility="private" type="_YjNiQLG-EeynY_V9esvEiQ" association="_Yv7voLG-EeynY_V9esvEiQ"/>
+          <ownedAttribute xmi:id="_YudI8LG-EeynY_V9esvEiQ" name="doHomework" visibility="private" type="_YjHboLG-EeynY_V9esvEiQ" association="_Yv-y8bG-EeynY_V9esvEiQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvXH4LG-EeynY_V9esvEiQ" name="HomeworkWorker" specification="_YtoCgLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvXH4bG-EeynY_V9esvEiQ" name="doHomework2" type="_YjNiQLG-EeynY_V9esvEiQ"/>
+            <ownedParameter xmi:id="_YvXH4rG-EeynY_V9esvEiQ" name="doHomework" type="_YjHboLG-EeynY_V9esvEiQ"/>
+            <ownedParameter xmi:id="_YvXH47G-EeynY_V9esvEiQ" type="_YjWsMLG-EeynY_V9esvEiQ" direction="return"/>
+            <language>java</language>
+            <body>this.doHomework2 = doHomework2;&#xD;
+		this.doHomework = doHomework;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvYWALG-EeynY_V9esvEiQ" name="setDoHomework2" specification="_YtuJILG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvYWAbG-EeynY_V9esvEiQ" name="doHomework2" type="_YjNiQLG-EeynY_V9esvEiQ"/>
+            <language>java</language>
+            <body>this.doHomework2 = doHomework2;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvY9ELG-EeynY_V9esvEiQ" name="setDoHomework" specification="_Ytv-ULG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvY9EbG-EeynY_V9esvEiQ" name="doHomework" type="_YjHboLG-EeynY_V9esvEiQ"/>
+            <language>java</language>
+            <body>this.doHomework = doHomework;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvaLMLG-EeynY_V9esvEiQ" name="DoHomeworkNow" specification="_YjcLwLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvaLMbG-EeynY_V9esvEiQ" name="text">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>doHomework.doIt(text);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvayQLG-EeynY_V9esvEiQ" name="DoHomework2Now" specification="_YjeoALG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvayQbG-EeynY_V9esvEiQ" name="text">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>doHomework2.doIt(text);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_YjcLwLG-EeynY_V9esvEiQ" name="DoHomeworkNow" method="_YvaLMLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_Yjcy0LG-EeynY_V9esvEiQ" name="text">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_YjeoALG-EeynY_V9esvEiQ" name="DoHomework2Now" method="_YvayQLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YjeoAbG-EeynY_V9esvEiQ" name="text">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_YtoCgLG-EeynY_V9esvEiQ" name="HomeworkWorker" method="_YvXH4LG-EeynY_V9esvEiQ">
+            <eAnnotations xmi:id="_YtpQoLG-EeynY_V9esvEiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Ytp3sLG-EeynY_V9esvEiQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_YtoCgbG-EeynY_V9esvEiQ" name="doHomework2" type="_YjNiQLG-EeynY_V9esvEiQ"/>
+            <ownedParameter xmi:id="_YtopkLG-EeynY_V9esvEiQ" name="doHomework" type="_YjHboLG-EeynY_V9esvEiQ"/>
+            <ownedParameter xmi:id="_YtrF0LG-EeynY_V9esvEiQ" type="_YjWsMLG-EeynY_V9esvEiQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_YtuJILG-EeynY_V9esvEiQ" name="setDoHomework2" method="_YvYWALG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YtuJIbG-EeynY_V9esvEiQ" name="doHomework2" type="_YjNiQLG-EeynY_V9esvEiQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Ytv-ULG-EeynY_V9esvEiQ" name="setDoHomework" method="_YvY9ELG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_Ytv-UbG-EeynY_V9esvEiQ" name="doHomework" type="_YjHboLG-EeynY_V9esvEiQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YjsDYLG-EeynY_V9esvEiQ" name="Person">
+          <ownedAttribute xmi:id="_YugMQLG-EeynY_V9esvEiQ" name="jmbg" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_YuiogLG-EeynY_V9esvEiQ" name="name" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_YukdsLG-EeynY_V9esvEiQ" name="age" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Yum58LG-EeynY_V9esvEiQ" name="contact" visibility="private" type="_Yil3MLG-EeynY_V9esvEiQ" association="_YwB2QLG-EeynY_V9esvEiQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvdOgLG-EeynY_V9esvEiQ" name="Person" specification="_YjzYILG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvdOgbG-EeynY_V9esvEiQ" name="jmbg">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_YvdOgrG-EeynY_V9esvEiQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_YvdOg7G-EeynY_V9esvEiQ" type="_YjsDYLG-EeynY_V9esvEiQ" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.jmbg = jmbg;&#xD;
+		this.name = name;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvecoLG-EeynY_V9esvEiQ" name="setContact" specification="_Yt0PwLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvecobG-EeynY_V9esvEiQ" name="contact" type="_Yil3MLG-EeynY_V9esvEiQ"/>
+            <language>java</language>
+            <body>this.contact = contact;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvfqwLG-EeynY_V9esvEiQ" name="setAge" specification="_Yj2bcLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvfqwbG-EeynY_V9esvEiQ" name="age">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.age = age;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvgR0LG-EeynY_V9esvEiQ" name="introduce" specification="_Yj3pkLG-EeynY_V9esvEiQ">
+            <language>java</language>
+            <body>System.out.println(&quot;Hello, I am &quot; + this.name + &quot;, I am &quot; + this.age + &quot; years old.&quot;);&#xD;
+		System.out.println(&quot;This is my email: &quot; + contact.getEmail() + &quot;, and this is my Phone number: &quot; + contact.getPhone() + &quot; .&quot;);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yvhf8LG-EeynY_V9esvEiQ" name="toString" specification="_Yj4QoLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_Yvhf8bG-EeynY_V9esvEiQ" direction="return">
+              <name xsi:nil="true"/>
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;Person [jmbg=&quot; + jmbg + &quot;, name=&quot; + name + &quot;, age=&quot; + age + &quot;, contact=&quot; + contact.toString() + &quot;]\n&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YviHALG-EeynY_V9esvEiQ" name="onCreate" specification="_Yj77AbG-EeynY_V9esvEiQ">
+            <language>java</language>
+            <body>System.out.println(&quot;Person created &quot; + this);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YviuELG-EeynY_V9esvEiQ" name="onDestroy" specification="_Yj9JILG-EeynY_V9esvEiQ">
+            <language>java</language>
+            <body>System.out.println(&quot;Person destroyed &quot; + this);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_YjwU0LG-EeynY_V9esvEiQ" name="Person">
+            <eAnnotations xmi:id="_Yjw74LG-EeynY_V9esvEiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Yjxi8LG-EeynY_V9esvEiQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_YjyKAbG-EeynY_V9esvEiQ" type="_YjsDYLG-EeynY_V9esvEiQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_YjzYILG-EeynY_V9esvEiQ" name="Person" method="_YvdOgLG-EeynY_V9esvEiQ">
+            <eAnnotations xmi:id="_Yj0mQrG-EeynY_V9esvEiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Yj0mQ7G-EeynY_V9esvEiQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_Yj0mQLG-EeynY_V9esvEiQ" name="jmbg">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Yj0mQbG-EeynY_V9esvEiQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Yj1NULG-EeynY_V9esvEiQ" type="_YjsDYLG-EeynY_V9esvEiQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Yj2bcLG-EeynY_V9esvEiQ" name="setAge" method="_YvfqwLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_Yj2bcbG-EeynY_V9esvEiQ" name="age">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Yj3pkLG-EeynY_V9esvEiQ" name="introduce" method="_YvgR0LG-EeynY_V9esvEiQ"/>
+          <ownedOperation xmi:id="_Yj4QoLG-EeynY_V9esvEiQ" name="toString" method="_Yvhf8LG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_Yj5ewLG-EeynY_V9esvEiQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Yj77AbG-EeynY_V9esvEiQ" name="onCreate" method="_YviHALG-EeynY_V9esvEiQ"/>
+          <ownedOperation xmi:id="_Yj9JILG-EeynY_V9esvEiQ" name="onDestroy" method="_YviuELG-EeynY_V9esvEiQ"/>
+          <ownedOperation xmi:id="_Yt0PwLG-EeynY_V9esvEiQ" name="setContact" method="_YvecoLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_Yt020LG-EeynY_V9esvEiQ" name="contact" type="_Yil3MLG-EeynY_V9esvEiQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YkCosLG-EeynY_V9esvEiQ" name="StudentList">
+          <ownedAttribute xmi:id="_Yup9QLG-EeynY_V9esvEiQ" name="name" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_YusZgLG-EeynY_V9esvEiQ" name="students" visibility="private" isOrdered="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YutAkLG-EeynY_V9esvEiQ" value="*"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Yvj8MLG-EeynY_V9esvEiQ" name="StudentList" specification="_YuC5QLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_Yvj8MbG-EeynY_V9esvEiQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Yvj8MrG-EeynY_V9esvEiQ" name="students" type="_YtNLwLG-EeynY_V9esvEiQ"/>
+            <ownedParameter xmi:id="_Yvj8M7G-EeynY_V9esvEiQ" type="_YkCosLG-EeynY_V9esvEiQ" direction="return"/>
+            <language>java</language>
+            <body>this.name = name;&#xD;
+		this.students = students;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvlxYLG-EeynY_V9esvEiQ" name="toString" specification="_YkG6ILG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvmYcLG-EeynY_V9esvEiQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>StringBuilder sb = new StringBuilder();&#xD;
+		sb.append(&quot;\n&quot;);&#xD;
+		sb.append(name);&#xD;
+		sb.append(&quot;:\n&quot;);&#xD;
+		for (String student: students){&#xD;
+			sb.append(student);&#xD;
+			sb.append(&quot;\n&quot;);&#xD;
+		}&#xD;
+		return sb.toString();&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_YkG6ILG-EeynY_V9esvEiQ" name="toString" method="_YvlxYLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YkHhMLG-EeynY_V9esvEiQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_YuC5QLG-EeynY_V9esvEiQ" name="StudentList" method="_Yvj8MLG-EeynY_V9esvEiQ">
+            <eAnnotations xmi:id="_YuFVgLG-EeynY_V9esvEiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_YuF8kLG-EeynY_V9esvEiQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_YuEHYLG-EeynY_V9esvEiQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_YuEucLG-EeynY_V9esvEiQ" name="students" type="_YtNLwLG-EeynY_V9esvEiQ"/>
+            <ownedParameter xmi:id="_YuF8kbG-EeynY_V9esvEiQ" type="_YkCosLG-EeynY_V9esvEiQ" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YkMZsLG-EeynY_V9esvEiQ" name="Subject">
+          <ownedAttribute xmi:id="_Yuwq8LG-EeynY_V9esvEiQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Yux5ELG-EeynY_V9esvEiQ" name="type">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YvnmkLG-EeynY_V9esvEiQ" name="toString" specification="_YkQEELG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YvnmkbG-EeynY_V9esvEiQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;Subject [name=&quot; + name + &quot;, type=&quot; + type + &quot;]&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_YkQEELG-EeynY_V9esvEiQ" name="toString" method="_YvnmkLG-EeynY_V9esvEiQ">
+            <ownedParameter xmi:id="_YkR5QLG-EeynY_V9esvEiQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_YvrQ8LG-EeynY_V9esvEiQ" name="" memberEnd="_YuXpYLG-EeynY_V9esvEiQ _Yvr4ALG-EeynY_V9esvEiQ">
+          <ownedEnd xmi:id="_Yvr4ALG-EeynY_V9esvEiQ" name="" type="_Yi-RsLG-EeynY_V9esvEiQ" association="_YvrQ8LG-EeynY_V9esvEiQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Yv4FQLG-EeynY_V9esvEiQ" name="" memberEnd="_Yv4sULG-EeynY_V9esvEiQ _YuY3gLG-EeynY_V9esvEiQ">
+          <ownedEnd xmi:id="_Yv4sULG-EeynY_V9esvEiQ" name="" type="_Yi-RsLG-EeynY_V9esvEiQ" association="_Yv4FQLG-EeynY_V9esvEiQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Yv7voLG-EeynY_V9esvEiQ" name="" memberEnd="_Yv7vobG-EeynY_V9esvEiQ _YubTwLG-EeynY_V9esvEiQ">
+          <ownedEnd xmi:id="_Yv7vobG-EeynY_V9esvEiQ" name="" type="_YjWsMLG-EeynY_V9esvEiQ" association="_Yv7voLG-EeynY_V9esvEiQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Yv-y8bG-EeynY_V9esvEiQ" name="" memberEnd="_Yv-y8rG-EeynY_V9esvEiQ _YudI8LG-EeynY_V9esvEiQ">
+          <ownedEnd xmi:id="_Yv-y8rG-EeynY_V9esvEiQ" name="" type="_YjWsMLG-EeynY_V9esvEiQ" association="_Yv-y8bG-EeynY_V9esvEiQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_YwB2QLG-EeynY_V9esvEiQ" name="" memberEnd="_YwB2QbG-EeynY_V9esvEiQ _Yum58LG-EeynY_V9esvEiQ">
+          <ownedEnd xmi:id="_YwB2QbG-EeynY_V9esvEiQ" name="" type="_YjsDYLG-EeynY_V9esvEiQ" association="_YwB2QLG-EeynY_V9esvEiQ"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Ygj24LG-EeynY_V9esvEiQ" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ygkd8LG-EeynY_V9esvEiQ" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_YglFALG-EeynY_V9esvEiQ" name="context">
+          <packagedElement xmi:type="uml:Package" xmi:id="_YgmTILG-EeynY_V9esvEiQ" name="support">
+            <packagedElement xmi:type="uml:Class" xmi:id="_YtHFILG-EeynY_V9esvEiQ" name="FileSystemXmlApplicationContext"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_YtA-gLG-EeynY_V9esvEiQ" name="ApplicationContext"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_YhXvMLG-EeynY_V9esvEiQ" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_YhYWQLG-EeynY_V9esvEiQ" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_YhY9ULG-EeynY_V9esvEiQ" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_YtjKALG-EeynY_V9esvEiQ" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Yg_7wLG-EeynY_V9esvEiQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_YhAi0LG-EeynY_V9esvEiQ" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_YtNLwLG-EeynY_V9esvEiQ" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_X-TeYLG-EeynY_V9esvEiQ">
+      <eAnnotations xmi:id="_X-baMLG-EeynY_V9esvEiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_X-qqwLG-EeynY_V9esvEiQ" base_Package="_XbLjMLG-EeynY_V9esvEiQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YitL8LG-EeynY_V9esvEiQ" base_Element="_YiqvsLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yi2V4LG-EeynY_V9esvEiQ" base_Element="_Yiz5oLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:Annotations xmi:id="_Yi4yILG-EeynY_V9esvEiQ" base_Element="_Yiz5oLG-EeynY_V9esvEiQ">
+    <annotations xmi:id="_Yi5ZMLG-EeynY_V9esvEiQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YjyKALG-EeynY_V9esvEiQ" base_Element="_YjwU0LG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yj6s4LG-EeynY_V9esvEiQ" base_Element="_Yj4QoLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:Annotations xmi:id="_Yj7T8LG-EeynY_V9esvEiQ" base_Element="_Yj4QoLG-EeynY_V9esvEiQ">
+    <annotations xmi:id="_Yj77ALG-EeynY_V9esvEiQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YkTHYLG-EeynY_V9esvEiQ" base_Element="_YkQEELG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:Annotations xmi:id="_YkUVgLG-EeynY_V9esvEiQ" base_Element="_YkQEELG-EeynY_V9esvEiQ">
+    <annotations xmi:id="_YkU8kLG-EeynY_V9esvEiQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_YtEB0LG-EeynY_V9esvEiQ" base_Element="_YtA-gLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:Reference xmi:id="_YtKIcLG-EeynY_V9esvEiQ" base_Element="_YtHFILG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:Reference xmi:id="_YtQ2ILG-EeynY_V9esvEiQ" base_Element="_YtNLwLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:Reference xmi:id="_YtmNULG-EeynY_V9esvEiQ" base_Element="_YtjKALG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YtqewLG-EeynY_V9esvEiQ" base_Element="_YtoCgLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:Annotations xmi:id="_Yts7ALG-EeynY_V9esvEiQ" base_Element="_YtoCgLG-EeynY_V9esvEiQ">
+    <annotations xmi:id="_Yts7AbG-EeynY_V9esvEiQ" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_YuJm8LG-EeynY_V9esvEiQ" genericsValue="String" base_Element="_YuEucLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YuV0MLG-EeynY_V9esvEiQ" base_Element="_YuT_ALG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yuch4LG-EeynY_V9esvEiQ" base_Element="_YubTwLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yue-ILG-EeynY_V9esvEiQ" base_Element="_YudI8LG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YuiBcLG-EeynY_V9esvEiQ" base_Element="_YugMQLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yuj2oLG-EeynY_V9esvEiQ" base_Element="_YuiogLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yulr0LG-EeynY_V9esvEiQ" base_Element="_YukdsLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YuoIELG-EeynY_V9esvEiQ" base_Element="_Yum58LG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_YurycLG-EeynY_V9esvEiQ" base_Element="_Yup9QLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Yuvc0LG-EeynY_V9esvEiQ" base_Element="_YusZgLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:Reference xmi:id="_Yv7IkLG-EeynY_V9esvEiQ" base_Element="_Yv4FQLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:Reference xmi:id="_Yv-y8LG-EeynY_V9esvEiQ" base_Element="_Yv7voLG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:Reference xmi:id="_YwBPMLG-EeynY_V9esvEiQ" base_Element="_Yv-y8bG-EeynY_V9esvEiQ"/>
+  <UMLLabProfile:Reference xmi:id="_YwE5kLG-EeynY_V9esvEiQ" base_Element="_YwB2QLG-EeynY_V9esvEiQ"/>
+</xmi:XMI>

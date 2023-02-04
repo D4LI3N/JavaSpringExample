@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+
+	<bean id="person" class="com.danijel.Person" init-method="onCreate"
+		destroy-method="onDestroy" scope="prototype">
+		<constructor-arg value="Danijel Petrovich" type="String"
+			name="name">
+		</constructor-arg>
+		<constructor-arg name="jmbg" type="int" value="123123123"></constructor-arg>
+		<property name="age" value="22"></property>
+		<property name="contact" ref="Contact">
+		</property>
+	</bean>
+	<bean id="Contact" class="com.danijel.Contact">
+		<constructor-arg type="String" value="danielthe@cyberdude.com"
+			name="email">
+		</constructor-arg>
+		<constructor-arg value="064123123" type="String"
+			name="phoneNumber">
+		</constructor-arg>
+	</bean>
+	<bean id="studentlist" class="com.danijel.StudentList">
+		<constructor-arg name="name" type="String" value="Students"></constructor-arg>
+		<constructor-arg name="students">
+			<set>
+				<value>Danijel Petrovih</value>
+				<value>Marko Markovich</value>
+				<value>Pero Perich</value>
+			</set>
+		</constructor-arg>
+	</bean>
+	<bean id="math" class="com.danijel.Subject">
+		<property name="name" value="Math"></property>
+		<property name="type" value="Mandatory"></property>
+	</bean>
+	<bean id="history" class="com.danijel.Subject">
+		<property name="name" value="History"></property>
+		<property name="type" value="Mandatory"></property>
+	</bean>
+	<bean id="pe" class="com.danijel.Subject">
+		<property name="name" value="PE"></property>
+		<property name="type" value="Optional"></property>
+	</bean>
+	<bean id="degree" class="com.danijel.Degree">
+		<property name="optional" ref="pe"></property>
+		<property name="subjects">
+			<list>
+				<ref bean="math" />
+				<ref bean="history" />
+				<ref bean="pe" />
+			</list>
+		</property>
+	</bean>
+	<bean id="homeworkworker" class="com.danijel.HomeworkWorker"
+		autowire="constructor">
+		</bean>
+	<bean id="DoHomework2" class="com.danijel.DoHomework2">
+		</bean>
+	<bean id="DoHomework" class="com.danijel.DoHomework">
+	</bean>
+	
+	<context:annotation-config></context:annotation-config>
+</beans>
