@@ -9,7 +9,7 @@
 ![badge](https://img.shields.io/badge/technology-Maven-green.svg)
 
 
-![header image](https://github.com/D4LI3N/SHAS/blob/master/SHAS-Documentation/Diagram-UML.jpg?raw=true)
+![header image](https://github.com/D4LI3N/SHAS/blob/master/JavaSpringExample/Diagram-UML.jpg?raw=true)
 
 
 
